@@ -1,5 +1,10 @@
 import Myimg from './image.png'
 import './app.css'
+import About from './About.jsx'
+import { Services, Home } from './Services.jsx'
+import Contact from './Contact.jsx'
+import Gallery from './Gallery.jsx'
+
 function App() {
   let name = "Ramesh"
   let age = 99
@@ -31,6 +36,11 @@ function App() {
       <marquee behavior="" direction=""><h1 style={st}>HEloo...</h1></marquee>
       <h1 className='ex'>Externel css applied</h1>
       <button>click</button>
+      <About />
+      <Services />
+      <Home />
+      <Gallery />
+      <Contact />
     </>
   )
 }
