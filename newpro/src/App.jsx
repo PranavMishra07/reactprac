@@ -17,8 +17,9 @@ function App() {
           <li>Home</li>
           <li>About</li>
           <li>Services</li>
-          <li>Services</li>
+          <li>Login</li>
           <li>Contact</li>
+          <li>Login</li>
           <li>Contact</li>
         </ul>
       </nav>
