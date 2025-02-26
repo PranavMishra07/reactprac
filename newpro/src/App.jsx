@@ -1,7 +1,7 @@
 import Myimg from './image.png'
 import './app.css'
 import About from './About.jsx'
-import { Services, Home } from './Services.jsx'
+import { Services as Ser, Home } from './Services.jsx'    //alias to change name of named import
 import Contact from './Contact.jsx'
 import Gallery from './Gallery.jsx'
 
@@ -37,7 +37,7 @@ function App() {
       <h1 className='ex'>Externel css applied</h1>
       <button>click</button>
       <About />
-      <Services />
+      <Ser />
       <Home />
       <Gallery />
       <Contact />
