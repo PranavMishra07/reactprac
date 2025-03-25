@@ -9,7 +9,7 @@ const Services = () => {
 const Home = () => {
     return (
         <>
-            <h1 style={{ backgroundColor: "greenyellow" }}>Home from name export</h1>
+            <h1 style={{ backgroundColor: "greenyellow", }}>Home from name export</h1>
         </>
     )
 }

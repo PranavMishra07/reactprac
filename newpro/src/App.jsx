@@ -1,14 +1,14 @@
 import Myimg from './image.png'
 import './app.css'
 import About from './About.jsx'
-import { Services as Ser, Home } from './Services.jsx'    //alias to change name of named import
+import { Services as Ser, Home as Ho } from './Services.jsx'    //alias to change name of named import
 import Contact from './Contact.jsx'
 import Gallery from './Gallery.jsx'
 
 function App() {
-  let name = "Ramesh"
+  let name = "Ramesh"   //variable declare before the return
   let age = 99
-  let st = {
+  let st = {       //internal css  in key value pair
     color: "yellow",
     backgroundColor: "black",
     padding: "20px"
@@ -38,7 +38,7 @@ function App() {
       <button>click</button>
       <About />
       <Ser />
-      <Home />
+      <Ho />
       <Gallery />
       <Contact />
     </>
